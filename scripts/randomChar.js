@@ -18,7 +18,7 @@ function setup() {
   textArea.style("outline", "none")
   textArea.style("pointer-events", "none");
   textArea.elt.focus();
-  textArea.elt.select();
+  textArea.elt.click();
   textArea.attribute("spellcheck", "false");
   
   charTarget = floor(random(3,10));
