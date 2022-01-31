@@ -51,6 +51,6 @@ function draw() {
   background(255);
   fill(0);
   textSize(20);
-  text(textArea.elt.value, 0, 0, 400, 400);
+  text(textArea.elt.value, 0, 30, width, height);
   
 }
