@@ -48,8 +48,8 @@ function changeTxt () {
 
 function draw() {
   
-  background(255);
-  fill(0);
+  background(0);
+  fill(255);
   textSize(20);
   text(textArea.elt.value, 0, 30, cnv.width, cnv.height);
   
